@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="28dp">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pager"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Information Technology"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:scaleX="0.7"
+        android:scaleY="0.7"/>
+
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:textColor="@color/green"
+        android:textSize="15sp"
+        android:text="Society of Information Technology Enthusiasts" />
+
+
+</RelativeLayout>
